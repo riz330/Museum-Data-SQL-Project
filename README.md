@@ -2,6 +2,7 @@
 
 Project Overview:
 The MuseumData_Project contains a database that includes various tables such as museum, artist, work, product_size, museum_hours, and more. This project demonstrates SQL queries used for various data retrieval and manipulation tasks, such as joining tables, grouping data, calculating aggregates, and more.
+To retrieve multiple tables from CSV files in Python, you can create a list of the file names, then loop through this list to read each CSV into a separate table. By using a dictionary, each file can be read and stored with its respective table name, making the data easily accessible for further processing. This approach allows you to handle all the CSV files—like artist, canvas_size, subject, work, museum, museum_hours, and product_hours—and organize them for analysis. You can access and manipulate the data using the table names.
 
 Files and Queries Overview:
 Database Creation:
